@@ -1,36 +1,60 @@
-**Project Name:** Stacks Launchpad Contract for Token Sale
-**Project Description:** [BRIEF_DESCRIPTION_OF_WHAT_YOUR_PROJECT_DOES]
-**Live Demo URL:** [IF_DEPLOYED - OTHERWISE_REMOVE_THIS_LINE]
-**Repository URL:** [YOUR_GITHUB_REPO_URL]
+Simple Launchpad on Stacks
+Project Description
+Simple Launchpad on Stacks is a blockchain-based application for crowdfunding on the STX blockchain. When new campaign is created, fundraiser sets a goal in STX and a duration in blocks. In order to finish succesfull campaign, the campaign need to be fully invested or exceeding the funding goal before the target block-height is reached. After succesfull campaign, the fundraiser can then collect the funds. Investor can request a refund at any point while the campaign still active.This ensures that the investors stay in control of their STX until the funding goal is reached. If the goal of the campaign is not met after it reached setted block-height, the investors can request a refund.
 
-**Technologies Used:**
-- Stacks Blockchain
-- Clarity Smart Contracts
-- Next.js/React
-- [ADD_OTHER_TECHNOLOGIES_YOU_USED]
+Repository URL
+https://github.com/kayhanozturk/Rise-In-Project-Stacks-Launchpad
 
-**Key Features:**
-[List your main features, for example:]
-- Feature 1: Description
-- Feature 2: Description
-- Feature 3: Description
 
-**Smart Contracts:**
-[List your contract names and their main functions:]
-- contract-name.clar: Brief description of what it does
+Technologies Used
+Stacks Blockchain
+Clarity Smart Contracts
 
-Please create a professional README.md that includes:
+Key Features
+* Users can start campaigns and add a name, short description, a link, funding goal, and duration.
+* The campaign owner can update the short description and link.
+* The campaign owner creates tiers, each having a name, short description, and cost.
+* Investors choose one or more tiers to invest. They are required to pay at least the tier cost in order for the investment to be successful.
+* Investors can take their investment out as long as the campaign has not reached its funding goal.
+* The campaign owner can collect the funds once the campaign is successfully funded.
+Getting Started
+Prerequisites
+Node.js (v14 or later)
+npm or yarn
+Stacks wallet (Hiro Wallet, Xverse)
 
-1. **Project Header** with logo/banner (suggest placeholder)
-2. **Description** - What the project does and why it's useful
-3. **Features** - Key functionality and benefits
-4. **Technology Stack** - All technologies used
-5. **Getting Started** - Prerequisites and installation steps
-6. **Usage** - How to use the application with examples
-7. **Smart Contract Documentation** - Contract functions and parameters
-8. **Deployment** - How to deploy to testnet and mainnet
-9. **Testing** - How to run tests
-10. **Contributing** - Guidelines for contributions
-11. **License** - MIT License
-12. **Contact/Support** - How to get help
-13. **Acknowledgments** - Credits to Stacks ecosystem
+
+
+Parameters:
+amount: The amount of STX to donate.
+sender: The address of the sender.
+get-all-donations: Retrieves all donations.
+
+Returns: A list of all donations.
+get-donation: Retrieves a specific donation by ID.
+
+Parameters:
+id: The ID of the donation to retrieve.
+Deployment
+Testnet
+Deploy the smart contract to the Stacks testnet using the provided deployment scripts.
+Update the frontend configuration to point to the testnet.
+Mainnet
+Deploy the smart contract to the Stacks mainnet using the provided deployment scripts.
+Update the frontend configuration to point to the mainnet.
+Testing
+Run the tests for the smart contracts:
+
+cd contracts
+npm test
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License.
+
+Contact/Support
+For support, please open an issue in the GitHub repository.
+
+Acknowledgments
+Thanks to the Stacks ecosystem for providing the tools and resources to build this project.
