@@ -38,6 +38,8 @@ https://github.com/kayhanozturk/Rise-In-Project-Stacks-Launchpad
     - Returns the total amount of STX invested. 
 - `get-campaign-status(campaign-id uint)`
     - Returns the current campaign status (whether the goal was reached, the block height it was reached if successful, and whether the campaign owner has collected the funds).
+ - `get-is-active-campaign(campaign-id uint)`
+    - Returns whether the campaign is currently active (not expired and the funding goal has not yet been reached).
 
 
 
