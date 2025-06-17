@@ -10,9 +10,7 @@ https://github.com/kayhanozturk/Rise-In-Project-Stacks-Launchpad
 ## Technologies Used
  - Stacks Blockchain
  - Clarity Smart Contracts
- - Next.js/React
  - Stacks.js libraries
- - Tailwind CSS
 
 ## Key Features
 - Users can start campaigns and add a name, short description, a link, funding goal, and duration.
