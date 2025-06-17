@@ -24,7 +24,7 @@ https://github.com/kayhanozturk/Rise-In-Project-Stacks-Launchpad
 ### Prerequisites
 - Node.js (v14 or later)
 - npm or yarn
-- Stacks wallet (Hiro Wallet, Xverse)
+- Stacks wallet (Hiro Wallet, Xverse, Leather Wallet)
 
 
 
