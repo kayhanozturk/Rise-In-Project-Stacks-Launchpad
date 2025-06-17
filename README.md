@@ -27,8 +27,10 @@ https://github.com/kayhanozturk/Rise-In-Project-Stacks-Launchpad
 - Stacks wallet (Hiro Wallet, Xverse, Leather Wallet)
 
 
-
-### Parameters
+### Read-only functions
+ - get-campaign-id-nonce: Returns the current campaign ID nonce of the smart contract.
+ - get-total-campaigns-funded: Returns the total number of campaigns that have been funded.
+ - get-total-investments: Returns the total amount of investments. This number may go up and down a bit depending on refunds.
 
 
 
