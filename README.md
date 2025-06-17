@@ -34,6 +34,10 @@ https://github.com/kayhanozturk/Rise-In-Project-Stacks-Launchpad
     - Returns the total number of campaigns that have been funded.
  - `get-total-investments`
     - Returns the total amount of investments. This number may go up and down a bit depending on refunds.
+ - `get-total-investment-value`
+    - Returns the total amount of STX invested. 
+- `get-campaign-status(campaign-id uint)`
+    - Returns the current campaign status (whether the goal was reached, the block height it was reached if successful, and whether the campaign owner has collected the funds).
 
 
 
