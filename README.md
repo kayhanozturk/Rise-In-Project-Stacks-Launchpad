@@ -41,7 +41,11 @@ https://github.com/kayhanozturk/Rise-In-Project-Stacks-Launchpad
  - `get-is-active-campaign(campaign-id uint)`
     - Returns whether the campaign is currently active (not expired and the funding goal has not yet been reached).
 
-
+### Public functions
+- `create-campaign (name buff, description buff, link buff, goal uint, duration uint)`
+    - Creates a new campaign with the provided information. Returns the campaign ID if successful.
+- `update-campaign-information(campaign-id uint, description buff, link buff)`
+    - Updates campaign information for the specified campaign. Only the owner can do this. Returns u1 if successful.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
