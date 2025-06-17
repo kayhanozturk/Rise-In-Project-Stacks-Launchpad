@@ -23,22 +23,16 @@ https://github.com/kayhanozturk/Rise-In-Project-Stacks-Launchpad
 - The campaign owner can collect the funds once the campaign is successfully funded.
 
 ## Getting Started
-* Prerequisites
-* Node.js (v14 or later)
-* npm or yarn
-* Stacks wallet (Hiro Wallet, Xverse)
+### Prerequisites
+- Node.js (v14 or later)
+- npm or yarn
+- Stacks wallet (Hiro Wallet, Xverse)
 
 
 
-Parameters:
-amount: The amount of STX to donate.
-sender: The address of the sender.
+### Parameters
 
 
-Returns: A list of all donations.
-get-donation: Retrieves a specific donation by ID.
-
-Parameters:
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
