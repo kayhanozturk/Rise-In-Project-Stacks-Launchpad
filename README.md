@@ -8,19 +8,19 @@ https://github.com/kayhanozturk/Rise-In-Project-Stacks-Launchpad
 
 
 ## Technologies Used
-Stacks Blockchain
-Clarity Smart Contracts
-Next.js/React
-Stacks.js libraries
-Tailwind CSS
+ - Stacks Blockchain
+ - Clarity Smart Contracts
+ - Next.js/React
+ - Stacks.js libraries
+ - Tailwind CSS
 
 ## Key Features
-* Users can start campaigns and add a name, short description, a link, funding goal, and duration.
-* The campaign owner can update the short description and link.
-* The campaign owner creates tiers, each having a name, short description, and cost.
-* Investors choose one or more tiers to invest. They are required to pay at least the tier cost in order for the investment to be successful.
-* Investors can take their investment out as long as the campaign has not reached its funding goal.
-* The campaign owner can collect the funds once the campaign is successfully funded.
+- Users can start campaigns and add a name, short description, a link, funding goal, and duration.
+- The campaign owner can update the short description and link.
+- The campaign owner creates tiers, each having a name, short description, and cost.
+- Investors choose one or more tiers to invest. They are required to pay at least the tier cost in order for the investment to be successful.
+- Investors can take their investment out as long as the campaign has not reached its funding goal.
+- The campaign owner can collect the funds once the campaign is successfully funded.
 
 ## Getting Started
 * Prerequisites
